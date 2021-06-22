@@ -18,4 +18,4 @@
    * Запуск с подключением к MySQL. Открыть новое окно терминала и выполнить команду gradlew clean test -Ddb.url=jdbc:mysql://localhost:3306/app -Ddb.user=app -Ddb.password=pass
    * Запуск с подключением к PostgreSQL. Открыть новое окно терминала и выполнить команду gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/app -Ddb.user=app -Ddb.password=pass
 6. Сформировать отчёт
-   * Выполнить в терминале команду gradlew allureReport, затем команду gradlewServe
+   * Выполнить в терминале команду gradlew allureReport, затем команду gradlew allureServe
